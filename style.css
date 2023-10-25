@@ -1,0 +1,90 @@
+@import url(https://fonts.cdnfonts.com/css/glacial-indifference-2);
+body{
+    background-color: #083D60;
+    font-family:'Glacial Indifference', sans-serif;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+.menu li{
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.menu li a{
+    display:block;
+    color: white;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #2c81b9;
+}
+.primeiro{
+    padding-left: 70px;
+    font-size: 73px;
+    margin-top: 75px;
+    font-weight: normal;
+}
+.primeiro::first-line{
+    font-size: 110px;
+}
+h2{
+    padding-left: 70px;
+    margin-top: 45px;
+    font-size: 150px;
+    font-weight: normal;
+}
+.img2{
+    width: 650px;
+    height: 600px;
+    position:fixed;
+    bottom: 0px;
+    right:4%;
+    z-index: -5;
+}
+.dropdown{
+    display: inline;
+    position: relative;
+}
+.dropdown-options{
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: black;
+    width: 360px;
+}
+.dropdown-options ul li a{
+    color: white; 
+    text-decoration: none;
+    font-size: 38px;
+    margin: 10px;
+    margin-top: 70px;
+}
+.dropdown:hover .dropdown-options{
+    display: block;
+}
+.dropdown-options ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.dropdown-options ul li a:hover{
+    background-color: #083D60;
+}
+.drop_m{
+    height: 40px;
+    width: 100px;
+}
